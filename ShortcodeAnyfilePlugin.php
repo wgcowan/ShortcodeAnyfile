@@ -2,7 +2,6 @@
 
 class ShortcodeAnyfilePlugin extends Omeka_Plugin_AbstractPlugin
 {
-    protected $_hooks = array('public_head');
 
     public function setUp()
     {
@@ -10,17 +9,8 @@ class ShortcodeAnyfilePlugin extends Omeka_Plugin_AbstractPlugin
         parent::setUp();
     }
 
-    public function hookPublicHead($args)
-    {
- 		/**queue_css_file('jquery.fancybox');
-		queue_css_file('jquery.fancybox-buttons');
-		queue_js_file('jquery.fancybox.pack');
-	    queue_js_file('jquery.fancybox-buttons');
-		**/
-    }
-
-	/**
-     * Build HTML for the carousel
+     /**
+     * Build HTML for the display of the file
      * @param array $args
      * @param Zend_View $view
      * @return string HTML to display
