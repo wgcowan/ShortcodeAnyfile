@@ -4,7 +4,7 @@ Omeka shortcode to insert an image anywhere  you can setup a shortcode. The imag
 
 If the image file comes from an item, it can link back to the image file or to the item.
 
-The shortcode take the following parameters:
+The shortcode takes the following parameters:
 
 	width:  String | Display width of the image. You should include either px for
  		pixels or % for percent of width.
