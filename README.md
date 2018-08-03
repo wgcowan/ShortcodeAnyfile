@@ -8,8 +8,10 @@ The shortcode take the following parameters:
 
 width:  String | Display width of the image. You should include either px for
  	pixels or % for percent of width.
+	
 height: String | Display height of the image.Yeu should include either px for
 	pixels or % for percent of height
+	
 img:	Boolean | Whether to display an image from the "images" directory of
 	your theme (true) or to display it as an image file connected to an
 	item (false). If img == true, then the value of lid parameter should
@@ -17,14 +19,17 @@ img:	Boolean | Whether to display an image from the "images" directory of
 	If img == false or you don't set this parameter, then the lid
 	parameter should be the id of the file (not the id of the item the
 	file is in.
+	
 anchor: String | How to link the image to either the file or the item the
 	file is in. If anchor == file, the image will link to the file; if 
 	anchor == item, the image will link to the item that the file belongs
 	to. If anchor is any other value, there will be no link. The 
 	default is no link. If img = true this values is not used. Files
 	in the images directory will have no link.
+	
 lid:	The id of the file (numeric) or a string of the filename of the file
 	in the images directory of your theme.
+	
 
 A possible shortcode for a file in the images directory would look like this:
 
