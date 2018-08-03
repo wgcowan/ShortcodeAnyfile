@@ -34,16 +34,16 @@ The shortcode take the following parameters:
 
 A possible shortcode for a file in the images directory would look like this:
 
-[anyfile lid="filename.jpg" img=true width="200px"]
+	[anyfile lid="filename.jpg" img=true width="200px"]
 
 For a file in an item with an id of 299 linking back to the item:
 
-[anyfile lid=299 anchor="item" width="200px"]
+	[anyfile lid=299 anchor="item" width="200px"]
 
 An image file linking to the image:
 
-[anyfile lid=299 anchor="file" width="200px"]
+	[anyfile lid=299 anchor="file" width="200px"]
 
 An image file with no links:
 
-[anyfile lid=299 width="200px"]
+	[anyfile lid=299 width="200px"]
