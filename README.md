@@ -30,6 +30,10 @@ The shortcode takes the following parameters:
 	lid:	The id of the file (numeric) or a string of the filename of the file
 		in the images directory of your theme.
 	
+	alt_string: String value to use for alt display when mousing over image.
+		Only needed if img parameter is set to true. Other settings use the
+		title from either the item or file depending on parameter setting.
+	
 
 
 A possible shortcode for a file in the images directory would look like this:
