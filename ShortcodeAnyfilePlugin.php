@@ -22,6 +22,10 @@ class ShortcodeAnyfilePlugin extends Omeka_Plugin_AbstractPlugin
         if (isset($args['id'])) {
             $params['range'] = $args['id'];
         }
+		
+		if (isset($args['alt_string'])) {
+            $params['alt_string'] = $args['alt_string'];
+        }
 
         if (isset($args['width'])) {
             $params['width'] = $args['width'];
